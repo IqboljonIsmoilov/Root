@@ -1,0 +1,27 @@
+<form>
+  <div class="form-group">
+    <label for="title">Title:</label>
+    <input type="text" class="form-control" name="title" placeholder="Enter Title" id="title"
+           [(ngModel)]="taskDTO.title">
+  </div>
+  <div class="form-group">
+    <label for="content">Content:</label>
+    <input type="text" class="form-control" name="content" placeholder="Enter password" id="content"
+           [(ngModel)]="taskDTO.content">
+  </div>
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" name="status" type="checkbox" [(ngModel)]="taskDTO.status"> Status
+    </label>
+  </div>
+  <button *ngIf="taskDTO.id === 0; else elseBlock" class="btn btn-primary" (click)="createTask()">Create
+  </button>
+  <!--      <button *ngIf="taskDTO.id !== 0" class="btn btn-primary" (click)="updateTask()">Update</button>-->
+  <ng-template #elseBlock>
+    <button class="btn btn-primary" (click)="updateTask()">Update</button>
+    <span class="space-5"></span>
+    <button class="btn btn-primary" (click)="cancel()">Cancel</button>
+  </ng-template>
+
+
+</form>

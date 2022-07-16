@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Bozor",
+    "content": "Bozorlik qilish kerak",
+    "status": true
+  },
+  {
+    "id": 2,
+    "title": "Maktab",
+    "content": "Bozorlik qilish kerak",
+    "status": true
+  },
+  {
+    "id": 3,
+    "title": "Magazin",
+    "content": "Bozorlik qilish kerak",
+    "status": true
+  },
+  {
+    "id": 4,
+    "title": "Pdp",
+    "content": "Bozorlik qilish kerak",
+    "status": true
+  },
+  {
+    "id": 5,
+    "title": "Java",
+    "content": "Bozorlik qilish kerak",
+    "status": true
+  },
+  {
+    "id": 6,
+    "title": "test",
+    "content": "Bozorlik qilish kerak",
+    "status": true
+  }
+]

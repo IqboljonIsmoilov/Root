@@ -1,0 +1,11 @@
+.navbar{
+  padding-left: 30px;
+}
+
+.nav-item :hover{
+  color: red;
+}
+
+.nav-item :active{
+  color: greenyellow;
+}

@@ -1,0 +1,13 @@
+<div class="card item-card">
+  <div class="card-body">
+    <p><b>Id</b>: {{taskDTO.id}}</p>
+    <p><b>Title</b>: {{taskDTO.title}}</p>
+    <p><b>Status</b>: {{taskDTO.status}}</p>
+    <p><b>content</b>: {{taskDTO.content}}</p>
+  </div>
+  <div class="card-footer">
+    <button class="btn btn-danger" (click)="delete(taskDTO)">Delete</button>
+    <span class="space-5"></span>
+    <button class="btn btn-warning" (click)="update(taskDTO)">Update</button>
+  </div>
+</div>
